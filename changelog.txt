@@ -1,5 +1,10 @@
 4/22/25
 
+- Align dashboard text and logo
+- Change branding placeholder text to dashboard
+- Remove sidebar placeholder text
+- Add possible logo image and vertically align with branding text
+- Change placeholder colors
 - Change grid height and width to 100vh and 100vw
 - Clarify items in pseudocode step 2
 - Add pseudocode steps b2, b3, c2, c3, c4, c5, c6, d2, d3, d4
