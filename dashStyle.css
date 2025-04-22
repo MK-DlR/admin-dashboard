@@ -16,16 +16,22 @@
 .sidebar {
     background-color: blue;
     grid-row: 1 / span 4;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
 }
 
 .header {
     background-color: green;
     grid-column: 2 / span 3;
     grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .main-content {
     background-color: purple;
     grid-row: 2 / span 4;
     grid-column: 2 / span 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
