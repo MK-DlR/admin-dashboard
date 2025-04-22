@@ -1,5 +1,8 @@
 4/22/25
 
+- Add pseudocode step 1 c
+- Add placeholder background colors to all divs 
+- Rename container to wrapper
 - Create divs for container, sidebar, header, and main content
 - Create pseudocode file and write pseudocode
 - Add gif to README
