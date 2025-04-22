@@ -9,10 +9,13 @@ PROJECT:
         b1. sidebar
         b2. header
         b3. main content
+    Done
     c . 2 column, 2 row layout
         c1. sidebar spans both rows
         c2. header spans both columns
         c3. main content spans both columns
+    Done
+Done
 
 2. begin nesting one section at a time
     a. nest child elements under parent elements in the html
