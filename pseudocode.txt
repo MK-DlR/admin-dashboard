@@ -3,12 +3,16 @@ PROJECT:
     a. write html elements for
         a1. sidebar container
         a2. header container
-        a3. main content containers
+        a3. main content container
     Done
     b. in css apply grid properties until basic layout is built
         b1. sidebar
         b2. header
         b3. main content
+    c . 2 column, 2 row layout
+        c1. sidebar spans both rows
+        c2. header spans both columns
+        c3. main content spans both columns
 
 2. begin nesting one section at a time
     a. nest child elements under parent elements in the html
