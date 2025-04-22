@@ -1,5 +1,6 @@
 4/22/25
 
+- Create divs for container, sidebar, header, and main content
 - Create pseudocode file and write pseudocode
 - Add gif to README
 - Create image folder and add gif
