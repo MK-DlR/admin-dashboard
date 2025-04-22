@@ -18,7 +18,7 @@ PROJECT:
 Done
 
 2. begin nesting one section at a time
-    a. nest child elements under parent elements in the html
+    a. nest child elements under parent elements in html
     Done
     b. sidebar
         b1. use more grids to layout
