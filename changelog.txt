@@ -1,5 +1,7 @@
 4/22/25
 
+- Create basic grid setup with wrapper, sidebar, header, and main content
+- Remove "wrapper" placeholder text
 - Add pseudocode step 1 c
 - Add placeholder background colors to all divs 
 - Rename container to wrapper
