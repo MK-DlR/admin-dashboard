@@ -10,19 +10,33 @@
     background-color: red;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: lightblue;
     grid-row: 1 / span 4;
     display: grid;
     grid-template-rows: 1fr 10fr;
 }
 
+.logo {
+    height: 5vh;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.branding {
+    vertical-align: middle;
+    margin: auto;
+    padding-right: 5vw;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .header {
-    background-color: green;
+    background-color: lightgreen;
     grid-column: 2 / span 3;
     grid-row: 1;
     display: grid;
@@ -30,7 +44,7 @@
 }
 
 .main-content {
-    background-color: purple;
+    background-color: lightcoral;
     grid-row: 2 / span 4;
     grid-column: 2 / span 3;
     display: grid;
