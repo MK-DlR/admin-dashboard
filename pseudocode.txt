@@ -24,15 +24,20 @@ Done
         b1. use more grids to layout
             - navigation section
             - branding sections
-        b2. add dashboard logo section
+        b2. add dashboard logo 
+            - with space between it and links
         b3. add sidebar links
+            - with space between links and settings
         b4. sidebar colored like header buttons
+        b5. should extend to bottom of page
+            - with empty space under last links
     c. header
         c1. use more grids to layout
             - search bar
             - user info
             - buttons
         c2. create search bar
+            - with space around it
         c3. create user info with
             - greeting
             - icon
@@ -41,6 +46,7 @@ Done
             - colored like sidebar
         c5. add notification bell
         c6. user and icon in top right
+            - with space between items
     d. main content
         d1. use more grids to layout
             - projects
@@ -52,6 +58,7 @@ Done
             - interaction icons
             - colored bar on left
             - rounded corners
+            - gap between cards and other cards and content
         d3. create announcements card with
             - name
             - basic text

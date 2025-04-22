@@ -1,7 +1,9 @@
 4/22/25
 
+- Clarify items in pseudocode step 2
 - Add pseudocode steps b2, b3, c2, c3, c4, c5, c6, d2, d3, d4
 - Add projects, announcements, and trending items to main content
+- Create main content grid
 - Add search bar, user info, and buttons to header
 - Create header grid
 - Add branding and navigation to sidebar
