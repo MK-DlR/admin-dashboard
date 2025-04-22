@@ -1,0 +1,5 @@
+4/22/25
+
+- Create image folder and add gif
+- Link style sheet in html file
+- Create README, changelog, html file, and css file
