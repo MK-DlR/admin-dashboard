@@ -1,1 +1,18 @@
 /* dashStyle.css */
+
+.wrapper {
+    display: grid;
+    background-color: red;
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+.header {
+    background-color: green;
+}
+
+.main-content {
+    background-color: purple;
+}
