@@ -2,8 +2,8 @@
 
 TOP admin dashboard project
 
-live preview: https://milkteapuppy.github.io/admin-dashboard/
+live preview: https://MK-DlR.github.io/admin-dashboard/
 
 use html, css, and css grid to create an admin dashboard based upon given specifications (an image provided by TOP)
 
-![majismile](https://github.com/milkteapuppy/admin-dashboard/blob/main/images/smile.gif)
+![majismile](https://github.com/MK-DlR/admin-dashboard/blob/main/images/smile.gif)
