@@ -1,0 +1,49 @@
+PROJECT:
+1. create layout
+    a. write html elements for
+        a1. sidebar container
+        a2. header container
+        a3. main content containers
+    b. in css apply grid properties until basic layout is built
+        b1. sidebar
+        b2. header
+        b3. main content
+
+2. begin nesting one section at a time
+    a. nest child elements under parent elements in the html
+    b. sidebar
+        b1. use more grids to layout
+            - navigation section
+            - branding sections
+    c. header
+        c1. use more grids to layout
+            - search bar
+            - user info
+            - buttons
+    d. main content
+        d1. use more grids to layout
+            - projects
+            - announcements
+            - trending items
+
+3. fill out some dummy content and placeholder images
+    a. so grid items can be positioned
+
+4. gather assets
+    a. icons and more
+        a1. example uses: https://pictogrammers.com/library/mdi/
+    b. fonts
+        b1. example uses: Roboto
+
+TIPS
+1. when building layout
+    a. apply background colors and/or borders to help visualize grid
+
+2. can use px, fr, or both for grid tracks
+
+3. does not have to be responsive
+    a. can optionally expand/shrink the project cards
+        a1. when resizing browser window
+
+4. design doesn't have to fully match example
+    a. freedom to come up with own design

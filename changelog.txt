@@ -1,5 +1,6 @@
 4/22/25
 
+- Create pseudocode file and write pseudocode
 - Add gif to README
 - Create image folder and add gif
 - Link style sheet in html file
