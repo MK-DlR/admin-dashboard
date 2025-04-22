@@ -4,6 +4,7 @@ PROJECT:
         a1. sidebar container
         a2. header container
         a3. main content containers
+    Done
     b. in css apply grid properties until basic layout is built
         b1. sidebar
         b2. header
