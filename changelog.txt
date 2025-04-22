@@ -1,8 +1,14 @@
 4/22/25
 
+- Add pseudocode steps b2, b3, c2, c3, c4, c5, c6, d2, d3, d4
+- Add projects, announcements, and trending items to main content
+- Add search bar, user info, and buttons to header
+- Create header grid
+- Add branding and navigation to sidebar
+- Create sidebar grid
 - Create basic grid setup with wrapper, sidebar, header, and main content
 - Remove "wrapper" placeholder text
-- Add pseudocode step 1 c
+- Add pseudocode step 1c
 - Add placeholder background colors to all divs 
 - Rename container to wrapper
 - Create divs for container, sidebar, header, and main content
