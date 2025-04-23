@@ -1,5 +1,10 @@
 4/23/25
 
+- Complete step 2d, 2d3, 2d4, 2d5
+- Add box shadows to cards
+- Create dummy text for projects, announcements, and trending
+- Add project, announcements, and trending cards and basic header text styling
+- Add project, announcements, and trending padding
 - Complete step 2c
 - Adjust button positioning
 - Add user small icon and text
