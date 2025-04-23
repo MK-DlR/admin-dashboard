@@ -24,12 +24,16 @@ Done
         b1. use more grids to layout
             - navigation section
             - branding sections
+        Done
         b2. add dashboard logo 
             - with space between it and links
+        Done
         b3. add sidebar links
             - with space between links and settings
+        Done
         b4. should extend to bottom of page
             - with empty space under last links
+        Done
     Done
     c. header
         c1. use more grids to layout
@@ -44,9 +48,13 @@ Done
         c3. create user info with
             - greeting
             - handle
+        Done
         c4. create buttons
+        Done
         c5. user and icon in top right
             - with space between items
+        Done
+    Done
     d. main content
         d1. use more grids to layout
             - projects
@@ -86,11 +94,15 @@ Done
     c. apply font colors
         c1. white when on colored background
         c2. black when on white background
+    Done
     d. apply header button colors
         d1. same color as sidebar
+    Done
     e. apply background colors
+    Done
     f. apply sidebar color
         f1. same color as header buttons
+    Done
 
 TIPS
 1. when building layout
