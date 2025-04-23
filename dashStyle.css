@@ -4,6 +4,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'meta_procond_regular';
   }
 
 /* fonts */
@@ -29,7 +30,7 @@
 
 .wrapper {
     display: grid;
-    background-color: red;
+    background-color: red; /* remove when finished*/
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr 5fr;
@@ -37,7 +38,7 @@
 }
 
 .sidebar {
-    background-color: lightblue;
+    background-color: #B99C71;
     grid-row: 1 / span 4;
     display: grid;
     grid-template-rows: 1fr 10fr;
@@ -59,15 +60,61 @@
 }
 
 .header {
-    background-color: lightgreen;
+    background-color: #ffffff; /* can change color when finished*/
+    box-shadow: 0 5px 3px -3px grey;
+    position: relative;
     grid-column: 2 / span 3;
     grid-row: 1;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header input[type=search] {
+    padding: 6px;
+    border: none;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 60px;
+    font-size: 17px;
+    max-width: 35vw;
+    max-height: 25px;
+    border-radius: 20px;
+    background: #e2e8f0; /* can change color when finished*/
+}
+
+.buttons {
+    margin-top: 3vh;
+}
+
+button {
+    background-color: #B99C71;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #E2E8F0; /* can change color when finished*/
+    color: #B99C71;
+}
+
+.new,
+.upload,
+.share {
+    width: 8vw;
 }
 
 .main-content {
-    background-color: lightcoral;
+    background-color: #e2e8f0; /* can change color when finished*/
     grid-row: 2 / span 4;
     grid-column: 2 / span 3;
     display: grid;
@@ -81,6 +128,11 @@
 
 ul {
     list-style-type: none;
+    padding-top: 3vh;
+}
+
+li {
+    padding: 5px;
 }
 
 a:link,
@@ -89,5 +141,5 @@ a:hover,
 a:active {
     text-decoration: none;
     color: white;
-    font-family: 'meta_procond_regular';
+    font-weight: bold;
 }
