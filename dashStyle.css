@@ -29,6 +29,7 @@
     font-style: normal;
 }
 
+/* content wrapper */
 .wrapper {
     display: grid;
     background-color: red; /* remove when finished*/
@@ -38,6 +39,7 @@
     grid-template-rows: 1fr 5fr;
 }
 
+/* sidebar */
 .sidebar {
     background-color: #B99C71;
     grid-row: 1 / span 4;
@@ -59,6 +61,27 @@
     padding-right: 10px;
 }
 
+ul {
+    list-style-type: none;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+li {
+    padding: 1vh;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+/* header*/
 .header {
     background-color: #ffffff; /* can change color when finished*/
     box-shadow: 0 5px 3px -3px grey;
@@ -77,7 +100,7 @@
     margin-right: 16px;
     margin-left: 70px;
     font-size: 17px;
-    max-width: 35vw;
+    max-width: 45vw;
     max-height: 25px;
     border-radius: 20px;
     background: #e2e8f0; /* can change color when finished*/
@@ -102,7 +125,8 @@
     align-items: center;
     justify-content: flex-end;
     gap: 1rem; 
-    padding-right: 3.5rem; 
+    padding-right: 4.5vw; 
+    padding-top: 10px;
 }
 
 .icon-small {
@@ -117,7 +141,7 @@
     align-items: center;
     justify-content: flex-end;
     gap: 1rem; 
-    padding-right: 2rem; 
+    padding-right: 2vw; 
 }
 
 button {
@@ -146,6 +170,7 @@ button:hover {
     width: 7vw;
 }
 
+/* main content */
 .main-content {
     background-color: #e2e8f0; /* can change color when finished*/
     grid-row: 2 / span 4;
@@ -154,27 +179,72 @@ button:hover {
     grid-template-columns: 3fr 1fr;
 }
 
+.content-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .projects {
     grid-column: span 1;
     grid-row: span 2;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
 }
 
-ul {
-    list-style-type: none;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
+.projects-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 3px -3px grey;
 }
 
-li {
-    padding: 1vh;
+.announcements {
+    padding: 25px 25px 5px;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 2.5vh;
+.announcements-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px -3px grey;
+}
+
+.announcement {
+    padding: 2.5vh;
+}
+
+p,
+p b {
+    font-size: 1.5vh;
+}
+
+.trending {
+    padding: 5px 25px 25px 25px;
+}
+
+.trending-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px -3px grey;
+}
+
+.trending-user {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.first-user {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 2.5vh;
+}
+
+.last-user {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-bottom: 2.5vh;
 }
