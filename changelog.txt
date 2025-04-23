@@ -1,5 +1,14 @@
 4/23/25
 
+- Add and style header buttons
+- Add usericon image
+- Style searchbar, header, and sidebar
+- Adjust header grid for better row sizing
+- Replace search placeholder with text input
+- Add steps 4a2, 4a3, 4a4, 4a5, 4a6, 4a7
+- Complete step 2b
+- Add padding to sidebar links
+- Clarify step 4; move some items from step 2 to step 4
 - Complete step 4b
 - Add fonts
 - Add dummy links to nav and setting text
