@@ -64,9 +64,9 @@ Done
         d2. create project cards with
             - name
             - basic text
-            - colored bar on left
             - rounded corners
             - gap between cards and other cards and content
+        Done
         d3. create announcements card with
             - name
             - basic text
@@ -79,10 +79,15 @@ Done
         Done
         d5. all cards have box shadows
         Done
+    Done
+Done
 
 3. fill out some dummy content and placeholder images
     a. so grid items can be positioned
+    Done
     b. remember to add necessary gaps and padding
+    Done
+Done
 
 4. gather assets and do styling
     a. icons and more
@@ -108,6 +113,8 @@ Done
     f. apply sidebar color
         f1. same color as header buttons
     Done
+    g. apply colored bar on left of project card
+        g1. secondary highlight color
 
 TIPS
 1. when building layout
