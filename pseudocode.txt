@@ -28,24 +28,24 @@ Done
             - with space between it and links
         b3. add sidebar links
             - with space between links and settings
-        b4. sidebar colored like header buttons
-        b5. should extend to bottom of page
+        b4. should extend to bottom of page
             - with empty space under last links
+    Done
     c. header
         c1. use more grids to layout
             - search bar
             - user info
             - buttons
+        Done
         c2. create search bar
             - with space around it
+            - rounded corners
+        Done
         c3. create user info with
             - greeting
-            - icon
             - handle
         c4. create buttons
-            - colored like sidebar
-        c5. add notification bell
-        c6. user and icon in top right
+        c5. user and icon in top right
             - with space between items
     d. main content
         d1. use more grids to layout
@@ -55,7 +55,6 @@ Done
         d2. create project cards with
             - name
             - basic text
-            - interaction icons
             - colored bar on left
             - rounded corners
             - gap between cards and other cards and content
@@ -66,22 +65,32 @@ Done
         d4. create trending card with
             - usernames
             - basic blurbs
-            - icons
             - rounded corners
 
 3. fill out some dummy content and placeholder images
     a. so grid items can be positioned
     b. remember to add necessary gaps and padding
 
-4. gather assets
+4. gather assets and do styling
     a. icons and more
         a1. example uses: https://pictogrammers.com/library/mdi/
+        a2. notification bell to user-info-sm
+        a3. magnifying glass to search bar
+        a4. symbols to sidebar links
+        a5. interaction symbols to project cards
+        a6. icon to user-info-lg and user-info-sm
+        a7. icons to trending
     b. fonts
         b1. example uses: Roboto
     Done
     c. apply font colors
-    d. apply button colors
+        c1. white when on colored background
+        c2. black when on white background
+    d. apply header button colors
+        d1. same color as sidebar
     e. apply background colors
+    f. apply sidebar color
+        f1. same color as header buttons
 
 TIPS
 1. when building layout
