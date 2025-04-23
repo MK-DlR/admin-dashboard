@@ -2,7 +2,7 @@
 
 - Complete step 2d2, 3
 - Create and adjust font style classes
-- Fill scrollbar showing when no visible content is below cards
+- Fix scrollbar showing when no visible content is below cards
 - Set up project card grid
 - Create project-grid container 
 - Complete step 2d, 2d3, 2d4, 2d5
