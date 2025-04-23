@@ -1,5 +1,11 @@
 4/23/25
 
+- Complete step 2c
+- Adjust button positioning
+- Add user small icon and text
+- Adjust positioning on sidebar content
+- Align user icon and greeting
+- Complete steps 4c, 4d, 4e, 4f
 - Add and style header buttons
 - Add usericon image
 - Style searchbar, header, and sidebar
