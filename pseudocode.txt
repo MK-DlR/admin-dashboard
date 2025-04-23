@@ -71,12 +71,17 @@ Done
 
 3. fill out some dummy content and placeholder images
     a. so grid items can be positioned
+    b. remember to add necessary gaps and padding
 
 4. gather assets
     a. icons and more
         a1. example uses: https://pictogrammers.com/library/mdi/
     b. fonts
         b1. example uses: Roboto
+    Done
+    c. apply font colors
+    d. apply button colors
+    e. apply background colors
 
 TIPS
 1. when building layout
