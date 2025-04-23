@@ -1,3 +1,13 @@
+4/23/25
+
+- Complete step 4b
+- Add fonts
+- Add dummy links to nav and setting text
+- Replace navigation placeholder text with nav and setting list
+- Add user-info-lg, rename user info to user-info-sm
+- Remove header and main content placeholder text
+- Add pseudocode steps 3b, 4c, 4d, 4e
+
 4/22/25
 
 - Align dashboard text and logo
