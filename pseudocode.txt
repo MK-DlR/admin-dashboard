@@ -124,11 +124,13 @@ Done
     Done
     b. adjust project card size
     c. dividing lines in announcement card doesn't go all the way across
+    Done
     d. add dummy links to trending users
     Done
     e. add dashboard link to landing page project
     Done
-    f. change user and trending user icons to vh (?)
+    f. change user and trending user icons to vh
+    Done
     g. vertically center align sidebar svg icons with links
     h. align project card svg icons in bottom right of card
 
