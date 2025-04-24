@@ -1,6 +1,10 @@
 4/24/25
 
-- Align sidebar svgs with links
+- Complete step 5
+- Add search icon beside search bar and align
+- Change project card svg icons to filled when clicked
+- Adjust project card sizes
+- Align sidebar svgs with
 - Add modal with randomized gifs
 - Complete step 5c, 5f
 - Make image elements and text responsive

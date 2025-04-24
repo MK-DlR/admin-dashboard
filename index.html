@@ -29,20 +29,21 @@
                     <li><a class="side-links" id="popup" href="#"><img class="link-icons" src="images/svgs/shield-check.svg">Privacy</a></li>
                 </ul>
             </div>
-            <!-- The Modal -->
+            <!-- modal -->
             <div id="myModal" class="modal">
-
-                <!-- Modal content -->
+                <!-- modal content -->
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <p><div id="result" style="text-align: center;"></div></p>
                     <p class="popup-text">KIRYU-CHAN!</p>
                 </div>
-  
-  </div>
+    </div>
         </div>
         <div class="header">
-            <input type="search" class="search">
+            <div class="search-container">
+                <img class="magnify" src="images/svgs/magnify.svg">
+                <input type="search" class="search">
+            </div>
             <div class="user-info-sm">
                 <img class="icon-small" src="images/icons/majiicon.png">
                 <span style="font-weight: bold;" class="usersmall">Majima Gorō</span>
@@ -64,30 +65,57 @@
                 <div class="project-grid">
                     <div class="projects-card">
                         <b>Project Card 1</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
-                        <a href="#"><img class="card-icons" src="images/svgs/star-plus-outline.svg"></a>
-                        <a href="#"><img class="card-icons" src="images/svgs/eye-plus-outline.svg"></a>
-                        <a href="#"><img class="card-icons" src="images/svgs/share-variant-outline.svg"></a>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 2</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 3</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 4</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 5</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 6</b><br>
-                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
+                        <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac. Aliquam quis dui a nis.</span>
+                        <div class="card-icons-container">
+                            <a href="#"><img class="card-icons" onclick="toggleShare(this)" src="images/svgs/share-variant-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleEye(this)" src="images/svgs/eye-plus-outline.svg"></a>
+                            <a href="#"><img class="card-icons" onclick="toggleStar(this)" src="images/svgs/star-plus-outline.svg"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,6 +203,30 @@
             let number = Math.floor(Math.random() * randomImage.length);
             document.getElementById('result').innerHTML =
                 '<img src="' + randomImage[number] + '" class="modal-image" />';
+        }
+
+        function toggleStar(x) {
+            if (x.src.includes('star-plus-outline.svg')) {
+                x.src = 'images/svgs/star-plus.svg';
+            } else {
+                x.src = 'images/svgs/star-plus-outline.svg';
+            }
+        }
+
+        function toggleEye(x) {
+            if (x.src.includes('eye-plus-outline.svg')) {
+                x.src = 'images/svgs/eye-plus.svg';
+            } else {
+                x.src = 'images/svgs/eye-plus-outline.svg';
+            }
+        }
+
+        function toggleShare(x) {
+            if (x.src.includes('share-variant-outline.svg')) {
+                x.src = 'images/svgs/share-variant.svg';
+            } else {
+                x.src = 'images/svgs/share-variant-outline.svg';
+            }
         }
     </script>
 </body>
