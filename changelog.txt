@@ -1,5 +1,6 @@
 4/24/25
 
+- Align sidebar svgs with links
 - Add modal with randomized gifs
 - Complete step 5c, 5f
 - Make image elements and text responsive

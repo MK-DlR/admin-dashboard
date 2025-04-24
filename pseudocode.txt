@@ -132,6 +132,7 @@ Done
     f. change user and trending user icons to vh
     Done
     g. vertically center align sidebar svg icons with links
+    Done
     h. align project card svg icons in bottom right of card
 
 6. extras
