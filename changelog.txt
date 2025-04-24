@@ -1,5 +1,10 @@
 4/24/25
 
+- Complete step 5a, 5d
+- Add link styling to trending users and card svg icons
+- Change user large and small icon
+- Align trending usernames and blurbs with icons
+- Add trending user icons and basic styling
 - Remove unused svg icon files
 - Add svg icon project class styling
 - Add svg icons to project card
