@@ -10,33 +10,34 @@
     <div class="wrapper">
         <div class="sidebar">
             <div class="branding">
-                <img class="logo" src="images/crest.png">
+                <a class="branding" href="#"><img class="logo" src="images/crest.png">
                 Dashboard
+                </a>
             </div>
             <div class="nav">
                 <ul class="navigation">
-                    <li><a href="#"><img class="link-icons" src="images/svgs/home.svg">Home</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/card-account-details-outline.svg">Profile</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/message-reply.svg">Messages</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/clock-time-three.svg">History</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/note-multiple.svg">Tasks</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/account-group.svg">Communities</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/home.svg">Home</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/card-account-details-outline.svg">Profile</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/message-reply.svg">Messages</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/clock-time-three.svg">History</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/note-multiple.svg">Tasks</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/account-group.svg">Communities</a></li>
                 </ul>
                 <ul class="settings">
-                    <li><a href="#"><img class="link-icons" src="images/svgs/cog.svg">Settings</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/help-box.svg">Support</a></li>
-                    <li><a href="#"><img class="link-icons" src="images/svgs/shield-check.svg">Privacy</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/cog.svg">Settings</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/help-box.svg">Support</a></li>
+                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/shield-check.svg">Privacy</a></li>
                 </ul>
             </div>
         </div>
         <div class="header">
             <input type="search" class="search">
             <div class="user-info-sm">
-                <img class="icon-small" src="images/usericon.jpg">
+                <img class="icon-small" src="images/icons/majiicon.png">
                 <span style="font-weight: bold;" class="usersmall">Majima Gorō</span>
             </div>
             <div class="user-info-lg">
-                <img class="icon-large" src="images/usericon.jpg">
+                <img class="icon-large" src="images/icons/majiicon.png">
                 <span style="font-weight: bold;" class="greeting">Hi there,<br>
                 <span style="font-size: 25px;">Majima Gorō (@gorogorogorochan)</span></span>
             </div>
@@ -53,9 +54,9 @@
                     <div class="projects-card">
                         <b>Project Card 1</b><br>
                         <span class="dark-small">Aliquam quis dui a nisl scelerisque condimentum ut nec leo. Suspendisse nec nisi malesuada, ultrices ligula a, semper libero. Vestibulum dapibus finibus nunc, sit amet pellentesque elit luctus ac.</span>
-                        <img class="card-icons" src="images/svgs/star-plus-outline.svg">
-                        <img class="card-icons" src="images/svgs/eye-plus-outline.svg">
-                        <img class="card-icons" src="images/svgs/share-variant-outline.svg">
+                        <a href="#"><img class="card-icons" src="images/svgs/star-plus-outline.svg"></a>
+                        <a href="#"><img class="card-icons" src="images/svgs/eye-plus-outline.svg"></a>
+                        <a href="#"><img class="card-icons" src="images/svgs/share-variant-outline.svg"></a>
                     </div>
                     <div class="projects-card">
                         <b>Project Card 2</b><br>
@@ -101,22 +102,34 @@
             <div class="trending">
                 <span class="content-header">Trending</span>
                 <div class="trending-card">
-                    <p class="first-user">
-                        <span class="black-small">@username 1</span><br>
-                        user blurb
-                    </p>
-                    <p class="trending-user">
-                        <span class="black-small">@username 2</span><br>
-                        user blurb
-                    </p>
-                    <p class="trending-user">
-                        <span class="black-small">@username 3</span><br>
-                        user blurb
-                    </p>
-                    <p class="last-user">
-                        <span class="black-small">@username 4</span><br>
-                        user blurb
-                    </p>
+                    <div class="trending-user">
+                        <img class="trending-icon" src="images/icons/kiryuicon.png">
+                        <div class="user-text">
+                            <span class="black-small"><a class="user-link" href="#">@judgementkazzy</a></span>
+                            <span class="user-blurb">user blurb</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="trending-icon" src="images/icons/nishida.png">
+                        <div class="user-text">
+                            <span class="black-small"><a class="user-link" href="#">@jusername</a></span>
+                            <span class="user-blurb">user blurb</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="trending-icon" src="images/icons/minamiicon.png">
+                        <div class="user-text">
+                            <span class="black-small"><a class="user-link" href="#">@jusername</a></span>
+                            <span class="user-blurb">user blurb</span>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img class="trending-icon" src="images/icons/goroicon.png">
+                        <div class="user-text">
+                            <span class="black-small"><a class="user-link" href="#">@therealgoro</a></span>
+                            <span class="user-blurb">user blurb</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
