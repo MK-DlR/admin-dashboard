@@ -134,6 +134,10 @@ Done
     g. vertically center align sidebar svg icons with links
     Done
     h. align project card svg icons in bottom right of card
+    Done
+    i. add search svg beside search bar
+    Done
+Done
 
 6. extras
     a. create event listener
