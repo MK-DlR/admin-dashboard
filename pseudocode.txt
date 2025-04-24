@@ -139,6 +139,7 @@ Done
         a1. when privacy is clicked
             - which creates a popup
             - with a majima everywhere gif 
+Done
 
 TIPS
 1. when building layout
