@@ -97,6 +97,7 @@ Done
         a4. symbols to sidebar links
         a5. interaction symbols to project cards
         a6. icon to user-info-lg and user-info-sm
+        Done
         a7. icons to trending
     b. fonts
         b1. example uses: Roboto
@@ -115,6 +116,15 @@ Done
     Done
     g. apply colored bar on left of project card
         g1. secondary highlight color
+
+5. final tweaks
+    a. make sure there's space between dashboard links and edge of page
+    b. adjust project card size
+    c. dividing lines in announcement card doesn't go all the way across
+    d. add dummy links to trending users
+    e. add dummy(?) dashboard link
+        e1. or link to landing page/sign up form project/s
+            - link landing page/sign up form to admin dashboard project
 
 TIPS
 1. when building layout
