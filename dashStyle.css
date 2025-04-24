@@ -174,8 +174,8 @@ a:hover .link-icons {
 
 .icon-large {
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 8vh;
+    height: auto;
     object-fit: cover; 
 }
 
@@ -191,9 +191,13 @@ a:hover .link-icons {
 
 .icon-small {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 4.5vh;
+    height: auto;
     margin: 0; 
+}
+
+.usersmall {
+    font-size: 2vh;
 }
 
 /* header buttons */
@@ -289,7 +293,6 @@ button:hover {
     border-radius: 10px;
     box-shadow: 5px 5px 3px -3px grey;
     margin-top: 20px;
-    max-width: 15vw;
 }
 
 .announcement {
@@ -299,6 +302,12 @@ button:hover {
 p,
 p b {
     font-size: 1.5vh;
+}
+
+hr {
+    width: 75%;
+    margin: 0 auto;
+    color: #E2E8F0;
 }
 
 /* your projects and announcements large text */
@@ -318,6 +327,12 @@ p {
 }
 
 /* trending section */
+.announcements-card,
+.trending-card {
+    width: 100%;
+    max-width: 300px; /* or whatever fixed width you prefer */
+}
+
 .trending {
     padding: 20px 25px 25px 25px;
 }
@@ -331,14 +346,13 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 15vw;
     max-height: auto;
 }
 
 .trending-icon {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 4.5vh;
+    height: auto;
     margin: 0;
 }
 

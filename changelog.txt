@@ -1,5 +1,8 @@
 4/24/25
 
+- Complete step 5c, 5f
+- Make image elements and text responsive
+- Reduce hr width and change color
 - Complete step 4, 5e
 - Add extras step in pseudocode
 - Add project card colored border
