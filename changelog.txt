@@ -1,6 +1,12 @@
 4/24/25
 
-- Add user icons and interaction symbols
+- Remove unused svg icon files
+- Add svg icon project class styling
+- Add svg icons to project card
+- Add svg icon sidebar class styling
+- Add svg icons to sidebar links
+- Add css commenting
+- Add user icons and svg icons
 - Add step 5
 
 4/23/25
