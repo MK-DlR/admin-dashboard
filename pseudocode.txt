@@ -119,13 +119,16 @@ Done
 
 5. final tweaks
     a. make sure there's space between sidebar links and edge of page
-    b. center align sidebar links and svg icons
-    c. adjust project card size
-    d. dividing lines in announcement card doesn't go all the way across
-    e. add dummy links to trending users
-    f. add dummy(?) dashboard link
-        f1. or link to landing page/sign up form project/s
+    Done
+    b. adjust project card size
+    c. dividing lines in announcement card doesn't go all the way across
+    d. add dummy links to trending users
+    Done
+    e. add dummy(?) dashboard link
+        e1. or link to landing page/sign up form project/s
             - link landing page/sign up form to admin dashboard project
+    f. change user and trending user icons to vh (?)
+    g. vertically center align sidebar svg icons with links
 
 TIPS
 1. when building layout
