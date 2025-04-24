@@ -97,8 +97,8 @@ Done
         a4. symbols to sidebar links
         a5. interaction symbols to project cards
         a6. icon to user-info-lg and user-info-sm
-        Done
         a7. icons to trending
+    Done
     b. fonts
         b1. example uses: Roboto
     Done
@@ -116,6 +116,8 @@ Done
     Done
     g. apply colored bar on left of project card
         g1. secondary highlight color
+    Done
+Done
 
 5. final tweaks
     a. make sure there's space between sidebar links and edge of page
@@ -124,11 +126,17 @@ Done
     c. dividing lines in announcement card doesn't go all the way across
     d. add dummy links to trending users
     Done
-    e. add dummy(?) dashboard link
-        e1. or link to landing page/sign up form project/s
-            - link landing page/sign up form to admin dashboard project
+    e. add dashboard link to landing page project
+    Done
     f. change user and trending user icons to vh (?)
     g. vertically center align sidebar svg icons with links
+    h. align project card svg icons in bottom right of card
+
+6. extras
+    a. create event listener
+        a1. when privacy is clicked
+            - which creates a popup
+            - with a majima everywhere gif 
 
 TIPS
 1. when building layout
