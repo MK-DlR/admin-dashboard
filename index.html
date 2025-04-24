@@ -26,9 +26,20 @@
                 <ul class="settings">
                     <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/cog.svg">Settings</a></li>
                     <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/help-box.svg">Support</a></li>
-                    <li><a class="side-links" href="#"><img class="link-icons" src="images/svgs/shield-check.svg">Privacy</a></li>
+                    <li><a class="side-links" id="popup" href="#"><img class="link-icons" src="images/svgs/shield-check.svg">Privacy</a></li>
                 </ul>
             </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p><div id="result" style="text-align: center;"></div></p>
+                    <p class="popup-text">KIRYU-CHAN!</p>
+                </div>
+  
+  </div>
         </div>
         <div class="header">
             <input type="search" class="search">
@@ -132,5 +143,39 @@
             </div>
         </div>
     </div>
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("popup");
+        var span = document.getElementsByClassName("close")[0];
+    
+        btn.onclick = function() {
+            modal.style.display = "block";
+            getRandomImage();
+        };
+    
+        span.onclick = function() {
+            modal.style.display = "none";
+        };
+    
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        };
+    
+        function getRandomImage() {
+            let randomImage = [
+                "images/manhole.gif",
+                "images/trashcan.gif",
+                "images/dance.gif",
+                "images/surprise.gif",
+                "images/police.gif",
+                "images/below.gif"
+            ];
+            let number = Math.floor(Math.random() * randomImage.length);
+            document.getElementById('result').innerHTML =
+                '<img src="' + randomImage[number] + '" class="modal-image" />';
+        }
+    </script>
 </body>
 </html>
