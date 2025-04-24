@@ -1,5 +1,10 @@
 4/24/25
 
+- Complete step 4, 5e
+- Add extras step in pseudocode
+- Add project card colored border
+- Add sidebar link hover colors
+- Reduce trending user padding
 - Complete step 5a, 5d
 - Add link styling to trending users and card svg icons
 - Change user large and small icon
