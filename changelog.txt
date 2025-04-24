@@ -1,6 +1,7 @@
 4/24/25
 
-- 
+- Add user icons and interaction symbols
+- Add step 5
 
 4/23/25
 
