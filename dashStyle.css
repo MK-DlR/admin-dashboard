@@ -130,7 +130,7 @@ a:hover .link-icons {
 
 /* header section */
 .header {
-    background-color: #ffffff; /* can change color when finished*/
+    background-color: #ffffff; 
     box-shadow: 0 5px 3px -3px grey;
     position: relative;
     grid-column: 2;
@@ -237,7 +237,7 @@ button {
 
 
 button:hover {
-    background-color: #E2E8F0; /* can change color when finished*/
+    background-color: #E2E8F0; 
     color: #B99C71;
 }
 
@@ -254,8 +254,8 @@ button:hover {
     grid-column: 2;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto 1fr; /* Define row heights */
-    overflow: hidden; /* Let children handle overflow */
+    grid-template-rows: auto 1fr; 
+    overflow: hidden; 
 }
 
 .content-header {
@@ -272,24 +272,24 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-height: 100%; /* Limit to container height */
-    max-width: 1200px; /* Prevents cards from getting too wide */
-    margin: 0 auto; /* Centers the content if max-width is reached */
-    overflow-y: auto; /* Add scrolling for overflow */
+    max-height: 100%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    overflow-y: auto; 
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Force exactly 2 columns */
-    grid-template-rows: repeat(3, auto); /* Force 3 rows */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
     gap: 25px;
-    align-content: start; /* Start from the top */
+    align-content: start; 
 }
 
 .projects-card {
     background-color: white;
     border-radius: 10px;
-    padding: 25px 25px 30px; 
+    padding: 25px 25px 10px; 
     box-shadow: 5px 5px 3px -3px grey;
     height: auto; 
     height: 100%;
@@ -339,7 +339,8 @@ button:hover {
 }
 
 p,
-p b {
+p b,
+i {
     font-size: 1.5vh;
 }
 
